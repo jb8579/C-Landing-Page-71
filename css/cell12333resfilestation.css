@@ -1,0 +1,714 @@
+
+@media screen and (min-width: 1240px) and (max-width: 30000px) {
+
+
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1400px) {
+
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1239px) {
+.container {
+    padding: 0 30px;
+}
+
+.footerlogos ul li {
+    margin: 0 0px;
+}
+
+.footer-part {
+    gap: 55px;
+}
+
+
+.footer-nav ul li {
+    margin: 0 12px;
+}
+
+.footerlogos {
+    padding-top: 42px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+.container {
+    padding: 0 30px;
+}
+
+.footerlogos ul li {
+    margin: 0 0px;
+}
+
+
+.footerlogos ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 11px;
+    justify-content: space-around;
+    grid-row-gap: 19px;
+}
+
+
+.footerlogos ul li a img {
+    height: 45px;
+}
+
+.tps-bonus-boxlogo {
+    padding-left: 30px;
+}
+
+.tps-parissportif-texthd h2 br {
+    display: none;
+}
+
+.tps-bonus-playnow a {
+    font-size: 19px;
+    width: 150px;
+    height: 43px;
+    line-height: 43px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.tps-bonusbox-rating img {
+    height: 18px;
+}
+
+.tps-bonusbox-rating h3 {
+    font-size: 14px;
+}
+
+.tps-bonusbox-score h3 {
+    font-size: 14px;
+}
+
+.tps-bonusbox-score h4 {
+    font-size: 20px;
+}
+
+
+.tps-bonusbox-bonus h5 {
+    font-size: 12px;
+}
+
+.tps-bonusbox-bonus h3 {
+    font-size: 16px;
+}
+
+.tps-bonusbox-bonus h3 span {
+    font-size: 17px;
+}
+
+
+
+.main-tps-bonus-box {
+    padding: 30px 25px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+
+.footer-part {
+    gap: 50px;
+}
+
+.footer-nav ul li {
+    margin: 0 6px;
+}
+
+
+.footer-nav ul li a {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.container {
+    padding: 0 30px;
+}
+
+.tps-header-logo img {
+    height: 38px;
+}
+
+.tps-parissportif-texthd h2 br {
+    display: none;
+}
+
+
+
+.footer-nav ul li a {
+    font-size: 12px;
+}
+
+.footer-nav ul li {
+    margin: 0 10px;
+    margin-bottom: 15px;
+}
+
+.footer-nav ul {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.footerlogos ul li {
+    margin: 0 7px;
+}
+
+.footerlogos ul li a img {
+    height: 38px;
+}
+
+.footer-nav h3 {
+    text-align: center;
+}
+
+
+
+
+
+.footerlogos {
+    padding-top: 50px;
+    padding-bottom: 35px;
+    border-bottom: none;
+}
+
+
+
+
+.main-tps-bonus-box {
+    display: block;
+}
+
+.line {
+    display: none;
+}
+
+.tps-bonus-boxleft {
+    width: 100%;
+    padding-right: 0px;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.tps-bonus-boxlogo {
+    width: 60%;
+}
+
+.mbrating-box {
+    display: block;
+    width: 40%;
+}
+
+.tps-bonusbox-rating {
+    width: 100%;
+    position: relative;
+}
+
+.cmrating-box {
+    display: none;
+}
+
+
+.tps-bonus-boxinner {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.tps-bonusbox-bonus {
+    width: 60%;
+    position: relative;
+}
+
+.tps-bonusbox-score {
+    width: 40%;
+    position: relative;
+}
+
+
+.tps-bonus-playnow {
+    width: 100%;
+}
+
+
+.tps-bonus-playnow a {
+    width: 100%;
+    margin: auto;
+    margin-right: auto;
+}
+
+
+.tps-bonus-boxlogo img {
+    margin: auto;
+}
+
+.herotop-part p {
+    font-size: 10px;
+}
+
+
+
+.footer-part {
+    display: block;
+    gap: 0;
+}
+
+.footerleft {
+    width: 100%;
+}
+
+.footerright {
+    width: 100%;
+}
+
+.footer-logo img {
+    margin: auto;
+}
+
+.footerpr-text p {
+    text-align: center;
+}
+
+.footerlogos ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {
+
+
+.tps-parissportif-top-area {
+    padding: 10px 10px;
+}
+
+
+.tps-parissportif-top-part p {
+    font-size: 10px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+}
+
+.tps-parissportif-top-part p img {
+    margin-right: 5px;
+    height: 18px;
+}
+
+.tps-header-logo img {
+    height: 25px;
+}
+
+.tps-header-area {
+    padding: 13px 0;
+}
+
+
+
+.tps-herotext h1 br {
+    display: none;
+}
+
+.tps-herotext h1 {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.tps-herotext p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+.tps-herotext ul {
+     padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    justify-content: space-around;
+    grid-row-gap: 6px;
+    width: 290px;
+}
+
+
+.tps-herotext ul li {
+    margin: 0 0px;
+}
+
+.tps-herotext ul li img {
+    height: 30px;
+}
+
+.tps-herotext ul li h6 {
+    font-size: 13px;
+    top: -11px;
+    padding-left: 5px;
+}
+
+
+
+.offer {
+    width: 90px;
+    height: 22px;
+}
+
+
+.offer p {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0;
+}
+
+
+.tps-bonus-area {
+    padding: 40px 0;
+    padding-bottom: 20px;
+}
+
+
+.main-tps-bonus-box {
+    padding: 20px 15px;
+    padding-top: 20px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+.tps-bonus-playnow {
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.tps-bonus-playnow a {
+    margin: auto;
+    margin-right: auto;
+}
+
+.tps-bonus-boxleft {
+        width: 100%;
+        padding-right: 0;
+        position: relative;
+        display: flex
+;
+        gap: 10px;
+        border-bottom: 1px solid #0055A4;
+        padding-bottom: 16px;
+        padding-left: 22px;
+}
+
+
+.line {
+    display: none;
+}
+
+.cmrating-box {
+    display: none;
+}
+
+
+
+.mbrating-box {
+    display: block;
+}
+
+.tps-bonusbox-rating {
+    width: 100%;
+}
+
+.tps-bonus-boxinner {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.tps-bonusbox-bonus {
+    width: 70%;
+}
+
+
+.tps-bonusbox-bonus h5 {
+    font-size: 12px;
+    text-align: left;
+}
+
+.tps-bonusbox-bonus h3 {
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.tps-bonusbox-bonus p {
+    font-size: 12px;
+    text-align: left;
+}
+
+
+
+.tps-bonusbox-score h3 {
+    font-size: 14px;
+    text-align: right;
+}
+
+.tps-bonusbox-score h4 {
+    font-size: 30px;
+    text-align: right;
+    align-items: end;
+    justify-content: right;
+}
+
+
+.tps-bonus-playnow a {
+    font-size: 16px;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+}
+
+
+
+.tps-bonusbox-rating h3 {
+    font-size: 14px;
+    padding-top: 8px;
+    text-align: right;
+}
+
+
+.tps-bonus-boxlogo {
+   width: 55%;
+}
+
+.mbrating-box {
+    width: 45%;
+}
+
+.tps-bonusbox-rating img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-right: 0px;
+    height: 16px;
+}
+
+
+
+
+.topparissportif-text-area {
+    padding: 40px 0;
+    padding-bottom: 10px;
+}
+
+.copyright-area p {
+    font-size: 10px;
+}
+
+.footer-nav ul li {
+    margin: 0 0px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.footer-nav ul li a {
+    font-size: 13px;
+}
+
+
+.footer-nav ul {
+   text-align: center;
+}
+
+
+
+.footerlogos ul li {
+    display: inline-block;
+    margin: 5px 4px;
+}
+
+.footerlogos ul li a img {
+    height: 45px;
+}
+
+.footerlogos {
+    padding-top: 30px;
+    padding-bottom: 22px;
+    border-bottom: none;
+}
+
+.tps-parissportif-text-area {
+    padding: 40px 0;
+    padding-bottom: 5px;
+}
+
+.tps-parissportif-texthd h2 br {
+    display: none;
+}
+
+.tps-parissportif-texthd h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 43px;
+    padding-bottom: 8px;
+}
+
+.tps-parissportif-texthd p {
+    font-size: 15px;
+    margin: 0;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+.tps-parissportif-item1 h2 {
+    font-size: 21px;
+}
+
+
+.tps-parissportif-item1 p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-part {
+    display: block;
+    gap: 0px;
+}
+
+.footerleft {
+    width: 100%;
+}
+
+.footerright {
+    width: 100%;
+}
+
+.footer-logo img {
+    height: 33px;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+.footerpr-text p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.footer-nav h3 {
+    font-size: 16px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+
+
+.copyright-area {
+    padding: 11px 0;
+    margin-top: 45px;
+}
+
+
+.mbflrlogos {
+    display: block;
+}
+
+.cmflrlogos {
+    display: none;
+}
+
+.footerlogos ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    width: 290px;
+    margin: auto;
+}
+
+.footer-area {
+    padding: 35px 0;
+    padding-bottom: 0px;
+}
+
+.mainoffer {
+    top: 31px;
+}
+
+.topss-hero {
+    padding: 80px 0;
+}
+
+.tops-hero-area {
+    background-image: inherit;
+}
+
+.tps-parissportif-item1 ul li h6 {
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 14px;
+    margin-top: -16px;
+}
+
+
+
+
+
+
+}
