@@ -1,31 +1,24 @@
-/*
-font-family: 'Blockletter', sans-serif;
+@import url("https://fonts.cdnfonts.com/css/blockletter");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
- font-family: "Cairo", sans-serif;
-
-*/
-@import url('https://fonts.cdnfonts.com/css/blockletter');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
 
 * {
     padding: 0;
     margin: 0;
 }
 
-
-body {	
-     font-family: "Inter", sans-serif;
+body {
+    font-family: "Inter", sans-serif;
     font-size: 16px;
-    font-weight: 400;    
-	background: #fff;
-	color: #333333;	
+    font-weight: 400;
+    background: #fff;
+    color: #333333;
 }
 
-a,a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
 
@@ -35,33 +28,15 @@ ul {
     margin: 0;
 }
 
-::selection {
-    color: white; 
-    background: #ff7675;
-}
-
-::-webkit-selection {
-    color: white; 
-    background: #ff7675;
-}
-
-::-moz-selection {
-    color: white; 
-    background: #ff7675;
-}
-
 .container {
     max-width: 1240px;
     display: block;
     margin: auto;
     padding: 0 15px;
 }
-
-
-/*--- tps-parissportif-top-area start --*/
 .tps-parissportif-top-area {
-  background-color: #EF2427;
-  padding: 8px 0;  
+    background-color: #ef2427;
+    padding: 8px 0;
 }
 
 .tps-parissportif-top-part p {
@@ -79,11 +54,9 @@ ul {
     margin-right: 5px;
 }
 
-
-/*--- tps-header-area start --*/
 .tps-header-area {
-  background-color: #fff;
-  padding: 20px 0;  
+    background-color: #fff;
+    padding: 20px 0;
 }
 
 .tps-header-logo img {
@@ -91,28 +64,25 @@ ul {
     display: block;
 }
 
-
-/*--- tops-hero-area start --*/
 .mbherobg-area {
-  background-image: url('../cell123imgfilestation/cellstationBackgroundMobile12092.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../cell123imgfilestation/cellstationBackgroundMobile12092.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-
 .tops-hero-area {
-  background-image: url('../cell123imgfilestation/cellstationBackgroundDesktop12091.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 110px 0 130px 0;
+    background-image: url("../cell123imgfilestation/cellstationBackgroundDesktop12091.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0 130px 0;
 }
 .tps-herotext {
     width: 60%;
 }
 .tps-herotext h1 {
-    font-family: 'Blockletter', sans-serif;
+    font-family: "Blockletter", sans-serif;
     color: #fff;
     font-size: 68px;
     margin: 0;
@@ -126,14 +96,13 @@ ul {
     font-size: 15px;
     line-height: 24px;
     margin: 0;
-    font-weight: 500;  
+    font-weight: 500;
 }
 
 .tps-herotext p a {
     color: #fff;
     text-decoration: underline;
 }
-
 
 .tps-herotext ul {
     padding: 0;
@@ -163,7 +132,6 @@ ul {
     max-width: 100%;
 }
 
-
 .tps-herotext ul li h6 {
     color: #fff;
     font-size: 16px;
@@ -175,18 +143,10 @@ ul {
     padding-left: 8px;
 }
 
-
-
-
-
-
-
-
-/*--- tps-bonus-area start --*/
 .tps-bonus-area {
-  background-color: #FAFAFA;
-  padding: 80px 0;
-  padding-bottom: 50px;
+    background-color: #fafafa;
+    padding: 80px 0;
+    padding-bottom: 50px;
 }
 
 .main-tps-bonus-box {
@@ -198,7 +158,7 @@ ul {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
-    box-shadow: 0px 4px 40px 0px #0055A445;
+    box-shadow: 0px 4px 40px 0px #0055a445;
 }
 
 .tps-bonus-boxleft {
@@ -233,19 +193,15 @@ ul {
     width: 20%;
 }
 
-
-
-
 .tps-bonus-boxlogo img {
     max-width: 100%;
     display: block;
     margin: auto;
 }
 
-
 .tps-bonusbox-bonus h5 {
     font-family: "Cairo", sans-serif;
-    color: #0055A4;
+    color: #0055a4;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
@@ -254,35 +210,27 @@ ul {
 }
 
 .tps-bonusbox-bonus h3 {
-   font-family: 'Blockletter', sans-serif;
-    color: #0055A4;
+    font-family: "Blockletter", sans-serif;
+    color: #0055a4;
     font-size: 25px;
     text-align: center;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px;   
+    letter-spacing: 1px;
 }
 
 .tps-bonusbox-bonus h3 span {
-   color: #EF2427; 
+    color: #ef2427;
 }
-
-
-
 
 .tps-bonusbox-bonus p {
     font-family: "Cairo", sans-serif;
-    color: #0055A4;
+    color: #0055a4;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
 }
-
-
-
-
-
 
 .tps-bonusbox-rating img {
     max-width: 100%;
@@ -293,18 +241,18 @@ ul {
 
 .tps-bonusbox-rating h3 {
     font-family: "Cairo", sans-serif;
-    color: #0055A4;
+    color: #0055a4;
     font-size: 21px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 14px;
-    line-height: 28px; 
+    line-height: 28px;
 }
 
 .tps-bonusbox-score h4 {
-    font-family: 'Blockletter', sans-serif;
-    color: #0055A4;
+    font-family: "Blockletter", sans-serif;
+    color: #0055a4;
     font-size: 40px;
     line-height: 38px;
     font-weight: 400;
@@ -314,20 +262,18 @@ ul {
     justify-content: center;
 }
 
-
-
 .tps-bonusbox-score h3 {
     font-family: "Cairo", sans-serif;
-    color: #EF2427;
+    color: #ef2427;
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
-    padding-top: 3px; 
+    padding-top: 3px;
 }
 
 .tps-bonus-playnow a {
-    font-family: 'Blockletter', sans-serif;
+    font-family: "Blockletter", sans-serif;
     color: #fff;
     font-size: 25px;
     text-align: center;
@@ -341,26 +287,24 @@ ul {
     margin: auto;
     margin-right: 0;
     transition: 0.3s all ease;
-    background: linear-gradient(180deg, #FB3147 0%, #EF2427 100%);
+    background: linear-gradient(180deg, #fb3147 0%, #ef2427 100%);
 }
 
 .tps-bonus-playnow a:hover {
-        background: linear-gradient(91.73deg, #000 1.47%, #000 114.48%);
+    background: linear-gradient(91.73deg, #000 1.47%, #000 114.48%);
     color: #fff;
 }
-
-
 
 .line {
     width: 0.5px;
     height: 88px;
-    background-color: #0055A4;
+    background-color: #0055a4;
     display: block;
     z-index: 99999;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    right: 0;  
+    right: 0;
 }
 
 .mainoffer {
@@ -402,25 +346,22 @@ ul {
     display: none;
 }
 
-
-/*--- tps-parissportif-text-area start --*/
 .tps-parissportif-text-area {
-  background-color: #EDF5FF;
-  padding: 60px 0; 
-  padding-bottom: 40px; 
+    background-color: #edf5ff;
+    padding: 60px 0;
+    padding-bottom: 40px;
 }
-
 
 .tps-parissportif-texthd {
     padding-bottom: 50px;
 }
 
 .tps-parissportif-texthd h2 {
-    font-family: 'Blockletter', sans-serif;
-    color: #0055A4;
+    font-family: "Blockletter", sans-serif;
+    color: #0055a4;
     font-size: 47px;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 74px;
     padding-bottom: 8px;
 }
 
@@ -429,7 +370,7 @@ ul {
     font-size: 19px;
     margin: 0;
     line-height: 32px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .tps-parissportif-item1 {
@@ -437,8 +378,8 @@ ul {
 }
 
 .tps-parissportif-item1 h2 {
-    font-family: 'Blockletter', sans-serif;
-    color: #EF2427;
+    font-family: "Blockletter", sans-serif;
+    color: #ef2427;
     font-size: 27px;
     font-weight: 400;
     padding-bottom: 8px;
@@ -449,9 +390,8 @@ ul {
     font-size: 19px;
     margin: 0;
     line-height: 32px;
-    font-weight: 400; 
+    font-weight: 400;
 }
-
 
 .tps-parissportif-item1 ul {
     padding: 0;
@@ -488,25 +428,15 @@ ul {
     line-height: 25px;
     font-weight: 400;
     padding-left: 14px;
-    margin-top: -16px; 
+    margin-top: -16px;
 }
-
 
 .tps-parissportiftextcl h2 {
-    color: #0055A4;
+    color: #0055a4;
 }
 
-
-
-
-
-
-
-
-
-/*--- footer-area start --*/
 .footer-area {
-    background: linear-gradient(180deg, #0464F0 -58.89%, #01010B 100%);
+    background: linear-gradient(180deg, #0464f0 -58.89%, #01010b 100%);
     padding: 70px 0;
     padding-bottom: 0px;
 }
@@ -529,15 +459,13 @@ ul {
     display: block;
 }
 
-
 .footer-nav h3 {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     margin: 0;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
 }
-
 
 .footer-nav ul {
     padding: 0;
@@ -575,7 +503,7 @@ ul {
 }
 
 .footer-nav ul li a:hover {
-    color: #FF4E62;
+    color: #ff4e62;
 }
 
 .footerlogos {
@@ -601,7 +529,6 @@ ul {
     display: inline-block;
 }
 
-
 .footerlogos ul li:first-child {
     margin-left: 0px;
 }
@@ -616,7 +543,6 @@ ul {
     height: 56px;
 }
 
-
 .footerpr-text p {
     color: #fff;
     font-size: 16px;
@@ -626,11 +552,6 @@ ul {
     padding-top: 25px;
 }
 
-
-
-
-
-/*--- hcopyright-area start --*/
 .copyright-area {
     padding: 15px 0;
     border-top: 1px solid #86bbf59e;
@@ -644,13 +565,9 @@ ul {
     font-weight: 300;
 }
 
-
-
-
-/*--- tops-hero-area start --*/
 .newtops-hero-area {
     background-color: #eceff6;
-    padding: 65px 0
+    padding: 65px 0;
 }
 
 .newhero-part {
@@ -667,10 +584,9 @@ ul {
     width: 50%;
 }
 
-
 .newhero-left h2 {
     font-family: "Overlock", sans-serif;
-    color: #29539F;
+    color: #29539f;
     font-size: 55px;
     font-weight: 900;
     padding-bottom: 5px;
@@ -680,13 +596,12 @@ ul {
     color: #000000;
     font-size: 19px;
     margin: 0;
-    padding-top: 7px;   
+    padding-top: 7px;
 }
 
 .newhero-left img {
     display: none;
 }
-
 
 .newhero-right img {
     max-width: 100%;
@@ -695,20 +610,6 @@ ul {
     margin-right: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--- newtexts-area start --*/
 .newtexts-area {
     background-color: #fff;
     padding: 70px 0;
@@ -720,7 +621,7 @@ ul {
 
 .newtextitem1 h2 {
     font-family: "Overlock", sans-serif;
-    color: #29539F;
+    color: #29539f;
     font-size: 37px;
     font-weight: 900;
     margin: 0;
@@ -735,9 +636,8 @@ ul {
 }
 
 .newtextitem1 p a {
-    color: #29539F;
+    color: #29539f;
 }
-
 
 .newtextitem2 {
     padding-bottom: 30px;
@@ -745,13 +645,12 @@ ul {
 
 .newtextitem2 h2 {
     font-family: "Overlock", sans-serif;
-    color: #29539F;
+    color: #29539f;
     font-size: 37px;
     font-weight: 900;
     margin: 0;
     padding-bottom: 10px;
 }
-
 
 .newtextitem2 h3 {
     color: #000;
@@ -760,10 +659,6 @@ ul {
     margin: 0;
     font-weight: 400;
 }
-
-
-
-
 
 .newtextitem2 ul {
     padding: 0;
@@ -775,12 +670,12 @@ ul {
 }
 
 .newtextitem2 ul li {
-   display: block;
-   padding-bottom: 12px;
+    display: block;
+    padding-bottom: 12px;
 }
 
 .newtextitem2 ul li:last-child {
-   padding-bottom: 0px;    
+    padding-bottom: 0px;
 }
 
 .newtextitem2 ul li span {
@@ -788,7 +683,7 @@ ul {
     height: 5px;
     background-color: #212529;
     display: block;
-    border-radius: 40px;   
+    border-radius: 40px;
 }
 
 .newtextitem2 ul li p {
@@ -801,10 +696,9 @@ ul {
     font-weight: 400;
 }
 
-
 .Cookieslist {
     padding-top: 0 !important;
-    margin-left: 20px !important;    
+    margin-left: 20px !important;
 }
 
 .newtextitems2 {
@@ -813,8 +707,6 @@ ul {
     border-bottom: none;
 }
 
-
 .mbflrlogos {
     display: none;
 }
-
